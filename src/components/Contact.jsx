@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
+import { emailIds } from '../constants';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-
-const PUBLIC_KEY = 'J1VAP8MMyBRlLDJNs';
-const TEMPLATE_ID = 'template_blwzgk9';
-const SERVICE_ID = 'service_32gt2ja';
+// const PUBLIC_KEY = 'J1VAP8MMyBRlLDJNs';
+// const TEMPLATE_ID = 'template_blwzgk9';
+// const SERVICE_ID = 'service_32gt2ja';
 
 const Contact = () => {
   const formRef = useRef();
@@ -51,8 +51,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      SERVICE_ID,
-      TEMPLATE_ID,
+      emailIds.SERVICE_ID,
+      emailIds.TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Kristina',
@@ -60,7 +60,7 @@ const Contact = () => {
         to_email: 'krbekher@gmail.com',
         message: form.message,
       },
-      PUBLIC_KEY,
+      emailIds.PUBLIC_KEY,
     )
       .then(() => {
         handleResponse(true, "Thank you! I will get back to you as soon as possible.");
@@ -84,7 +84,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-8 flex flex-col gap-8"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your name</span>

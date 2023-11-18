@@ -210,4 +210,10 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const emailIds = {
+  PUBLIC_KEY: 'J1VAP8MMyBRlLDJNs',
+  TEMPLATE_ID: 'template_blwzgk9',
+  SERVICE_ID: 'service_32gt2ja',
+};
+
+export { services, technologies, experiences, projects, emailIds };
