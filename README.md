@@ -19,6 +19,6 @@ Dive into the intersection of art and technology, experiencing the possibilities
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
 
-Visit the live portfolio [here](https://kbekher.netlify.app/).
+Visit the live portfolio [here](https://bekher.netlify.app/).
 
 Feel free to explore, contribute, and showcase your own creativity using this project as a template! 🎨
