@@ -1,8 +1,24 @@
-# React + Vite
+# 3D Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my 3D portfolio, a showcase of creativity and technical skills. This project, built with React, Three.js, Tailwind CSS, React Fiber, React Tilt, and Vite, combines art and technology for an immersive user experience.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React and Three.js Integration:** Seamlessly blending React components with Three.js for stunning 3D visuals.
+- **Interactivity:** Enhanced with React Fiber and React Tilt for smooth and dynamic user interactions.
+- **Optimized Performance:** Built with Vite for fast loading and optimal performance.
+- **Modern Design:** Tailwind CSS provides a clean and modern aesthetic.
+
+## Explore the Portfolio 🌐
+
+Dive into the intersection of art and technology, experiencing the possibilities of innovative web development.
+
+## Getting Started 
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+
+Visit the live portfolio [here](https://kbekher.netlify.app/).
+
+Feel free to explore, contribute, and showcase your own creativity using this project as a template! 🎨
